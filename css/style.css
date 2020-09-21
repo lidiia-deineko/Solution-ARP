@@ -164,7 +164,7 @@ body{
         background-color: white;
         height: 434px;
         z-index: 1;
-        right: -100%;
+        left: -100%;
         margin-top: 35px;
         width: 100%;
     }
@@ -174,7 +174,7 @@ body{
     }
 
     .menu__list.active{
-        right: 0;
+        left: 0;
         text-align: center;
     }
 
