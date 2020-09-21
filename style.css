@@ -570,7 +570,7 @@ body{
     .registration-step__title{
         font-size: 12px;
         line-height: 15px;
-        padding-top: 29px;
+        padding-top: 16px;
         width: 129px;
     }
 }
@@ -732,6 +732,13 @@ body{
 
 .slick-dots li.slick-active button:before {
     color: white;
+}
+
+.slick-dots li button {
+    width: 0px;
+    height: 0px;
+    color: transparent;
+    background: transparent;
 }
 
 .slick-dots li button:before {
