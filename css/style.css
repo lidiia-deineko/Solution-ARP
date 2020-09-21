@@ -735,7 +735,7 @@ body{
 }
 
 .slick-dots li button:before {
-    color: white;
+    color: transparent;
 }
 
 .slick-next::before {
