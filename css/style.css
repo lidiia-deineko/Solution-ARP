@@ -284,7 +284,7 @@ body{
 
 .registration-title{
     width: 701px;
-    height: 87px;
+ 
     padding-left: 69px;
     padding-top: 46px;
     font-family: 'Mulish', sans-serif;
@@ -318,6 +318,33 @@ body{
         font-weight: 600;
         font-size: 18px;
         line-height: 30px;
+    }
+}
+
+.registration-title__h3{
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 28px;
+    line-height: 10px;
+    text-align: center;
+    letter-spacing: 0.025em;
+    color: #FFFFFF;
+    margin-top: -18px;
+}
+
+@media (max-width: 1050px) {
+ 
+    .registration-title__h3{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 675px) {
+ 
+    .registration-title__h3{
+        font-size: 12px;
+        line-height: 2;
     }
 }
 
@@ -570,7 +597,7 @@ body{
     .registration-step__title{
         font-size: 12px;
         line-height: 15px;
-        padding-top: 29px;
+        padding-top: 16px;
         width: 129px;
     }
 }
@@ -731,11 +758,22 @@ body{
 }
 
 .slick-dots li.slick-active button:before {
-    color: transperent;
+    color: white;
+}
+
+.slick-dots li button {
+    width: 0px;
+    height: 0px;
+    color: transparent;
+    background: transparent;
 }
 
 .slick-dots li button:before {
     color: transparent;
+     font-size: 0px;
+     line-height: 0px;
+     width: 0px;
+     height: 0px;
 }
 
 .slick-next::before {
