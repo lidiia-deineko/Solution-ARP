@@ -731,7 +731,7 @@ body{
 }
 
 .slick-dots li.slick-active button:before {
-    color: white;
+    color: transperent;
 }
 
 .slick-dots li button:before {
