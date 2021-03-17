@@ -66,6 +66,7 @@ body{
     align-items: center;
 }
 
+
 @media (max-width: 675px) {
  
     .header__img{
@@ -784,6 +785,17 @@ body{
     content: url("../images/Arrow7.png");
     color: green;
 }
+
+@media(max-width: 735px){
+    .slick-next::before {
+    display: none;
+ }
+ 
+ .slick-prev:before {
+     display: none;
+ }
+}
+
 
 li.slick-active {
     width: 21px;
